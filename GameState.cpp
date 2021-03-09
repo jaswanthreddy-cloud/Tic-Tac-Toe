@@ -1,13 +1,10 @@
 // File Name : GameState.cpp
 // Author: Jaswanth reddy matta
-// Collaborators:  none
 // Date: 11/15/2020
-// Assignment Number:6
-// CS 2308.255 & CS 5301 Fall 2020
 //
-// Contains memeber functios which have a capabilty of 
+// Contains memeber functios which have a capabilty of
 // generating current player, adding and removing a
-// move to the board, displaying the current board state 
+// move to the board, displaying the current board state
 // and checks which player has won.
 
 #include "GameState.h"
@@ -43,7 +40,7 @@ int GameState::getCurrentPlayer(){
 //addMove:  Updates the state of the board and stack of the past
 //          moves given a move of the current player.
 //Return :
-//If the turn is invalid (the target position is not empty) 
+//If the turn is invalid (the target position is not empty)
 //       it returns -1.
 //If all positions are filled, it returns 0.
 //If the move was successfully done and there are moves available,
@@ -72,7 +69,7 @@ int GameState::addMove(Move move){
 //***********************************************************
 //undoLast: Undoes the last turn by changing the board state to the
 //          previous one and removing the last move from the stack.
-//Returns : Returns true if the move was removed, 
+//Returns : Returns true if the move was removed,
 //            false if there are no moves to undo
 //***********************************************************
 bool GameState::undoLast() {

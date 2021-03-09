@@ -1,9 +1,6 @@
 // File Name : main.cpp
 // Author: Jaswanth reddy matta
-// Collaborators: 	none
 // Date: 11/15/2020
-// Assignment Number:6
-// CS 2308.255 & CS 5301 Fall 2020
 // Driver program for Tic Tac Toe.
 //Contains the main game loop
 
@@ -20,7 +17,7 @@ int main(){
     gameState.displayBoardState(cout);
 
     while(true) {
-        int currentPlayer = gameState.getCurrentPlayer();  
+        int currentPlayer = gameState.getCurrentPlayer();
         cout << "Player "<< currentPlayer << " make a turn." << endl;
         getline(cin,input);
 		if(input.rfind("move", 0) == 0){   //checking if the 1st word is move
@@ -48,6 +45,6 @@ int main(){
 			cout << "Player " << currentPlayer << " won!" << endl;
             break;
         }
-    }  
+    }
     return 0;
-}   
+}
