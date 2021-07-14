@@ -2,7 +2,7 @@
 // Author: Jaswanth reddy matta
 // Date: 11/15/2020
 //
-// Contains memeber functios which have a capabilty of
+// Contains memeber functios which have a capability of
 // generating current player, adding and removing a
 // move to the board, displaying the current board state
 // and checks which player has won.
